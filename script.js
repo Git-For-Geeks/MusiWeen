@@ -401,3 +401,8 @@ buttonfb.addEventListener('click', ()=>{
        open=0;
     }
 })
+
+function startLoop(){
+    audioElement.loop = true;
+    audioElement.load();
+}
