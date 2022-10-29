@@ -312,6 +312,18 @@ body{
     height: 11vh;
     width: 5vw;
 }
+.loop{
+    position: absolute;
+    bottom:2vh;
+    right: 10vw;
+}
+.loop img{
+    height: 3vw;
+    width: 3vw;
+}
+.loop:hover{
+    background-color: black;
+}
 .volume{
     position: absolute;
     bottom:2vh;
